@@ -1,0 +1,13 @@
+00:30:40 sbacha Sams-MacBook-Pro /Users/sbacha/github/web3-app-scaffold/gitencrypt master
+$ ./setup dekrypt hunter3
+cp: directory dekrypt/.git/info does not exist
+grep: dekrypt/.git/config: No such file or directory
+./setup: line 44: dekrypt/.git/config: No such file or directory
+
+All done! To reset the repo:
+
+ cd dekrypt
+ rm .git/index
+ git reset --hard
+
+Your password is stored in plaintext, in /Users/sbacha/.gitencrypt/git_github.com_sambacha_enkrypt.git
